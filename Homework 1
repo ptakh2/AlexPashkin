@@ -5,7 +5,7 @@ void Find_determinant(double** matrix)
 {
     for (int i = 0; i < n; ++i) // идем по первому столбцу
     {
-
+        
     }
 }
 
@@ -35,5 +35,5 @@ int main()
         free(matrix[i]);
     }
     free(matrix);
-    return 0;
+    return 0; 
 }
